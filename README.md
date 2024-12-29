@@ -45,7 +45,9 @@ Second: Clean the data by:
 - Think about how each column might be relevant to the business question you’re investigating. If you can’t think of why a column may be useful, it may not be worth including it.
 
 **Step 3:** Data Modelling
+
 SOLUTION:
+
 Step 3.1: Duplicate Reactions sheet and rename the copy to Cleaned Data
 Open Cleaned table.
 Insert two new columns for Category and URL after the last column of your Reaction table.
@@ -65,7 +67,8 @@ In the first cell of the URL column (e.g., G2), enter: =VLOOKUP(B2, Content!B:F,
 - In the first cell of the Reaction Score column (e.g., I2), enter: =VLOOKUP(C3, ReactionTypes!B:D, 3, FALSE) then,Drag the fill handle down to apply the formula to the rest of the cells in the Category column.
 
 **Step 5:**  Figure out the Top 5 performing categories
-First: Add up the total scores for each category. To do this, open a new sheet, name it as Popular Category and fill column A with Category from Cleaned data and in column B1 write "Scores" then use the following formulars to get the scores. .
+
+First: Add up the total scores for each category. To do this, open a new sheet, name it as Popular Category and fill column A with Category from Cleaned data and in column B1 write "Scores" then use the following formulars to get the scores.
 - Studying: =SUMIF('Cleaned Data'!F:F, 'Popular Category'!A2,'Cleaned Data'!I:I)
 - healthy eating: =SUMIF('Cleaned Data'!F:F, 'Popular Category'!A3,'Cleaned Data'!I:I)
 - technology: =SUMIF('Cleaned Data'!F:F, 'Popular Category'!A4,'Cleaned Data'!I:I)
