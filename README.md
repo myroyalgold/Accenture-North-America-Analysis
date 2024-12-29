@@ -21,6 +21,8 @@ The client has sent through:
 - Data cleaning
 - Data modelling
 
+**Tool Used:** Google Sheet
+
 **Step 1:** So, the first step is to use the  data model provided to identify which datasets will be required to answer business question - which is to to figure out the top 5 categories with the largest popularity.
 
 Solution: (Data set required)
