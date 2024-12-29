@@ -88,6 +88,12 @@ First: Add up the total scores for each category. To do this, open a new sheet, 
 
 Second: Click on the filter beside Scores and Sort Z-A to get the top 5 category.
 
+## Task 3: Data Visualization & Storytelling
+
+####  What To Do?
+- Choose the data visualizations that best support the story you want to tell to the client
+- Create a PowerPoint presentation that reports on the client’s content performance
+
 
 
 
